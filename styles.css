@@ -1,0 +1,72 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    text-align: center; /* Center content */
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center title and subtitle */
+    margin-bottom: 20px; /* Create space between header and main content */
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the main content */
+  }
+
+  .speech {
+    margin-bottom: 10px;
+  }
+  
+  .home_text {
+    line-height: 1.5;
+  }
+
+  .intro_container {
+    display: flex; /* Enable flexbox for the container */
+    align-items: center; /* Vertically center content */
+  }
+  
+  .intro_left {
+    flex: 1; /* Allow the paragraph to take up remaining space */
+    width: 60%; /* Adjust width as needed */
+    margin-right: 30px; /* Add some space between text and image */
+  }
+  
+  .intro_img {
+    width: 40%; /* Adjust width as needed */
+    max-width: 100%; /* Ensure responsiveness */
+  }
