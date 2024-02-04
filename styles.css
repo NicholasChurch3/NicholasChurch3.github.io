@@ -87,3 +87,16 @@ main {
   line-height: 1.5;
   margin-bottom: 10px;
 }
+
+.family_img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.above_image {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
